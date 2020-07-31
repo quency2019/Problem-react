@@ -1,0 +1,25 @@
+.itemWrap{
+    width: 90%;
+    margin-left: 10%;
+    overflow: hidden;
+    min-height: 200px;
+    
+
+}
+
+.itemTitle{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+
+}
+.itemContent{
+    margin: 10px;
+    word-break: break-all;
+
+    line-height: 30px;
+   
+
+}

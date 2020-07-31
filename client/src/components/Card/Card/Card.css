@@ -1,0 +1,47 @@
+.card{
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow:2px 2px 10px rgba(221, 174, 153, 0.6);
+    padding:10px;
+    margin: 0px 30px 30px 30px;
+
+   
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+}
+.cardTitle{
+    width: 90%;
+    overflow: hidden;
+   
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+
+}
+.cardContent{
+    width:  90%;
+    height: 150px;
+    line-height: 30px;
+    overflow: hidden;
+    margin:0 auto;
+    word-break: break-all;
+}
+.cardFoot{
+   margin: 10px 5%;
+    text-align: right;
+    font-size: 12px;
+    line-height: 20px;
+}
+.cardFoot i{
+    font-size: 16px;
+    vertical-align: -2px;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+.goodactive{color: sandybrown;}
+.loveactive{color: sandybrown;}

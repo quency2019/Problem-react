@@ -1,0 +1,14 @@
+.searchWrap{
+    margin-top: 85px;
+    text-align: center;
+}
+
+.searchWrap .searchImg{
+   font-size: 120px;
+   color: orange;
+   margin-bottom: 30px;
+  
+}
+.boxWrap{
+    margin: 50px auto;
+}

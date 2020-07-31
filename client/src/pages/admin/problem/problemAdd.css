@@ -1,0 +1,16 @@
+.editorWrap div{
+   
+    color: #aaa;
+    
+}
+.editorWrap input{
+    outline: none;
+    width: 300px;
+
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    padding: 0 10px;
+}

@@ -1,0 +1,32 @@
+.comment h1{
+    margin: 20px 0;
+}
+.commentWrap{
+    margin: 20px 0;
+
+}
+.commentWrap textarea{
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255,255, 0.3);
+    border: 1px dashed orange;
+    outline: none;
+    font-size: 14px;
+}
+.commentWrap span{
+    display: inline-block;
+    border: 1px dashed orange;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+.commentWrap input{
+    height: 26px;
+    line-height: 26px;
+    box-sizing: border-box;
+    padding: 5px;
+    outline: none;
+    border: 1px dashed orange;
+
+}

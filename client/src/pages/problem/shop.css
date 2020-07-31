@@ -1,0 +1,19 @@
+.left{
+    overflow: hidden;
+   padding: 30px 0;
+
+}
+.right{
+    width: 360px;
+    float: right;
+}
+.right a{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tagSpan{
+    margin: 6px;
+}

@@ -1,0 +1,9 @@
+.exercise h1{
+    margin: 20px 0;
+}
+.content h2,.content div{
+    margin: 20px 0;
+}
+.pre{
+    margin-right: 10px;
+}

@@ -1,0 +1,136 @@
+.head{
+    border: 1px solid;
+ 
+ }
+ .nav {
+     line-height: 55px;
+     height: 55px;
+    
+     float: left;
+    }
+ .nav a{
+      height: 47px;
+      margin-right: 20px;
+      float: left;
+      color: lightgray;
+    }
+    .nav a:hover{
+    
+     color: #aaa;
+   }
+ .userhead{
+  height: 55px;
+ 
+    }
+    .logo{
+      float: left;
+      height: 55px;
+      line-height: 55px;
+      margin-right: 20px;
+     
+    }
+    .logo i{
+     font-size: 32px;
+     display: inline-block;
+     height: 55px;
+     color: orange;
+    }
+ .userhead img{
+    
+     height: 55px;
+    float: left;
+    margin-right: 10px;
+  
+    }
+ .userhead h1{  
+     height: 55px;
+     line-height: 55px;
+     margin-right: 40px;
+     display: inline-block;
+     vertical-align: middle;
+     margin-left: 10px;
+ 
+    }
+ 
+    .navright{
+        float: right;
+        height: 55px;
+        line-height: 55px;
+        width: 200px;
+    }
+    .navright i{
+     
+      height: 25px;
+   
+      font-size: 25px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .userWrap{
+      position: relative;
+      display: inline-block;
+ 
+    }
+    .userWrap .liWrap{
+      position: absolute;
+      display: none;
+      left: -35px;
+      bottom: -150px;
+      background-color:rgba(170, 170, 170, 0.1);
+      width: 100px;
+      z-index: 20px;
+      height: auto;
+      text-align: center;
+      border-radius: 10px;
+    }
+    .userWrap:hover .liWrap{
+      display: block;
+    }
+    .userWrap .liWrap a{
+      height: 26px;
+      line-height: 26px;
+      display: block;
+      color: seagreen;
+      margin: 10px 0;
+      
+    }
+    .userWrap .liWrap a:hover{
+     color: rgb(250, 253, 47)
+    }
+
+.shopWrap{
+  position: relative;
+  display: inline-block;
+}
+.shopWrap span{
+  position: absolute;
+  padding:2px;
+  font-size: 12px;
+  color: aquamarine;
+  left: 11px;
+  top: 11px;
+  background-color: orange;
+  line-height: initial;
+  border-radius: 50%;
+  opacity: 0.8;
+
+}
+
+
+    .headsearch{
+      display: none;
+      float: right;
+      height: 25px;
+     width: 260px;
+     border: 1px solid lightpink;
+    border-radius: 16px;
+     margin-top: 14px;
+     margin-left: 20px;
+     margin-right: 30px;
+     overflow: hidden;
+     
+    }
+ 
+    .footer{
+      height: 100px;
+    }
